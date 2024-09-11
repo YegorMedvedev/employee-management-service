@@ -17,4 +17,12 @@ public abstract class TimestampedEntity implements Serializable {
     @UpdateTimestamp
     @Column(name = "updated_at")
     private LocalDateTime updateDate;
+
+    public LocalDateTime getCreationDate() {
+        return creationDate;
+    }
+
+    public LocalDateTime getUpdateDate() {
+        return updateDate;
+    }
 }

@@ -4,7 +4,7 @@ import com.employee.hub.model.EmployeeModel;
 
 import java.util.UUID;
 
-public class EmployeeDto {
+public class EmployeeOutputDto {
     private UUID id;
     private String firstName;
     private String lastName;
@@ -12,8 +12,8 @@ public class EmployeeDto {
     private Double salary;
     private UUID departmentId;
 
-    public static EmployeeDto from(final EmployeeModel employee) {
-        final EmployeeDto result = new EmployeeDto();
+    public static EmployeeOutputDto from(final EmployeeModel employee) {
+        final EmployeeOutputDto result = new EmployeeOutputDto();
         result.id = employee.getId();
         result.firstName = employee.getFirstName();
         result.lastName = employee.getLastName();

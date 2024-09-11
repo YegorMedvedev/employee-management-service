@@ -5,22 +5,22 @@ import jakarta.persistence.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "employees")
+@Table(name = "employees", uniqueConstraints = {@UniqueConstraint(columnNames = { "email", "department_id" })})
 public class EmployeeModel extends TimestampedEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(name = "first_name")
+    @Column(name = "first_name", nullable = false)
     private String firstName;
 
-    @Column(name = "last_name")
+    @Column(name = "last_name", nullable = false)
     private String lastName;
 
-    @Column(name = "email")
+    @Column(name = "email", unique = true, nullable = false)
     private String email;
 
-    @Column(name = "salary")
+    @Column(name = "salary", nullable = false)
     private Double salary;
 
     @ManyToOne(fetch = FetchType.LAZY)
