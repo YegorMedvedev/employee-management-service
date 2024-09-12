@@ -1,5 +1,7 @@
 package com.employee.hub.service;
 
+import org.springframework.stereotype.Service;
+
 import com.employee.hub.dto.DepartmentInputDto;
 import com.employee.hub.dto.DepartmentOutputDto;
 import com.employee.hub.exception.EntityAlreadyExists;
@@ -8,6 +10,7 @@ import com.employee.hub.repository.DepartmentRepository;
 
 import java.util.Optional;
 
+@Service
 public class DepartmentService {
     private DepartmentRepository departmentRepository;
 
