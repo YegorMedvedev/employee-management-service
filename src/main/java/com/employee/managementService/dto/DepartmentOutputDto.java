@@ -1,6 +1,6 @@
-package com.employee.hub.dto;
+package com.employee.managementService.dto;
 
-import com.employee.hub.model.DepartmentModel;
+import com.employee.managementService.model.DepartmentModel;
 
 import java.util.UUID;
 

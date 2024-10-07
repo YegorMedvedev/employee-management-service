@@ -5,9 +5,9 @@ services:
     image: postgres:15
     container_name: postgres
     environment:
-      POSTGRES_USER: yegor
+      POSTGRES_USER: admin
       POSTGRES_PASSWORD: mysecurepassword
-      POSTGRES_DB: employee_hub
+      POSTGRES_DB: employee_management_service
     ports:
       - "5432:5432"
     volumes:

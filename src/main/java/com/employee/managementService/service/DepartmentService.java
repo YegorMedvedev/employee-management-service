@@ -1,12 +1,12 @@
-package com.employee.hub.service;
+package com.employee.managementService.service;
 
 import org.springframework.stereotype.Service;
 
-import com.employee.hub.dto.DepartmentInputDto;
-import com.employee.hub.dto.DepartmentOutputDto;
-import com.employee.hub.exception.EntityAlreadyExists;
-import com.employee.hub.model.DepartmentModel;
-import com.employee.hub.repository.DepartmentRepository;
+import com.employee.managementService.dto.DepartmentInputDto;
+import com.employee.managementService.dto.DepartmentOutputDto;
+import com.employee.managementService.exception.EntityAlreadyExists;
+import com.employee.managementService.model.DepartmentModel;
+import com.employee.managementService.repository.DepartmentRepository;
 
 import java.util.Optional;
 

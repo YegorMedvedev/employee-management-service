@@ -1,4 +1,4 @@
-package com.employee.hub.dto;
+package com.employee.managementService.dto;
 
 public class DepartmentInputDto {
     private String name;

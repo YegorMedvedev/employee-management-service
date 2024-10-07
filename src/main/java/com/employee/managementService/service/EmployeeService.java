@@ -1,9 +1,9 @@
-package com.employee.hub.service;
+package com.employee.managementService.service;
 
 import org.springframework.stereotype.Service;
 
-import com.employee.hub.dto.EmployeeOutputDto;
-import com.employee.hub.repository.EmployeeRepository;
+import com.employee.managementService.dto.EmployeeOutputDto;
+import com.employee.managementService.repository.EmployeeRepository;
 
 import java.util.UUID;
 

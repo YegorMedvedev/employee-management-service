@@ -1,6 +1,6 @@
-package com.employee.hub.repository;
+package com.employee.managementService.repository;
 
-import com.employee.hub.model.EmployeeModel;
+import com.employee.managementService.model.EmployeeModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

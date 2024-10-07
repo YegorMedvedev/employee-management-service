@@ -1,9 +1,9 @@
-package com.employee.hub.controller;
+package com.employee.managementService.controller;
 
-import com.employee.hub.dto.DepartmentInputDto;
-import com.employee.hub.dto.DepartmentOutputDto;
-import com.employee.hub.exception.EntityAlreadyExists;
-import com.employee.hub.service.DepartmentService;
+import com.employee.managementService.dto.DepartmentInputDto;
+import com.employee.managementService.dto.DepartmentOutputDto;
+import com.employee.managementService.exception.EntityAlreadyExists;
+import com.employee.managementService.service.DepartmentService;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

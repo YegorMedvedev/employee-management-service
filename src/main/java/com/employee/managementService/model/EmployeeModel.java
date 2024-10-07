@@ -1,4 +1,4 @@
-package com.employee.hub.model;
+package com.employee.managementService.model;
 
 import jakarta.persistence.*;
 

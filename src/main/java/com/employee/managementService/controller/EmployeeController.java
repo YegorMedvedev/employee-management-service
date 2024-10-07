@@ -1,7 +1,7 @@
-package com.employee.hub.controller;
+package com.employee.managementService.controller;
 
-import com.employee.hub.dto.EmployeeOutputDto;
-import com.employee.hub.service.EmployeeService;
+import com.employee.managementService.dto.EmployeeOutputDto;
+import com.employee.managementService.service.EmployeeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

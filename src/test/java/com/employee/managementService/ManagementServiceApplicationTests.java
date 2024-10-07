@@ -1,10 +1,10 @@
-package com.employee.hub;
+package com.employee.managementService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HubApplicationTests {
+class ManagementServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,6 +1,6 @@
-package com.employee.hub.model;
+package com.employee.managementService.model;
 
-import com.employee.hub.dto.DepartmentInputDto;
+import com.employee.managementService.dto.DepartmentInputDto;
 import jakarta.persistence.*;
 
 import java.util.List;

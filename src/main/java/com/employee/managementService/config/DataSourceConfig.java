@@ -1,4 +1,4 @@
-package com.employee.hub.config;
+package com.employee.managementService.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.jdbc.DataSourceBuilder;
